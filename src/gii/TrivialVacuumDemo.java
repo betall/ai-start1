@@ -1,6 +1,8 @@
 package gii;
 
 import core.agent.Environment;
+import core.agent.EnvironmentView;
+import core.agent.impl.SimpleEnvironmentView;
 import core.environment.vacuum.VacuumEnvironment;
 
 /**
@@ -10,5 +12,6 @@ public class TrivialVacuumDemo {
     public static void main(String[] args){
         //create environment with random state of cleaning
         Environment env = new VacuumEnvironment();
+        EnvironmentView view = new SimpleEnvironmentView();
     }
 }
