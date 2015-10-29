@@ -1,6 +1,8 @@
 package core.agent.impl;
 
+import core.agent.Action;
 import core.agent.Agent;
+import core.agent.EnvironmentState;
 import core.agent.EnvironmentView;
 
 /**
